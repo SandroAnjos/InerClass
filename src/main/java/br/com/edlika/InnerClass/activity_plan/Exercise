@@ -1,0 +1,17 @@
+1 Exercício
+Crie uma lista de números inteiros e chame o método sort() da lista para fazer a ordenação
+desses elementos em ordem numérica crescente.
+O método sort() recebe um objeto do tipo Comparator<T> como parâmetro. Para criar um
+objeto desse tipo, use três abordagens diferentes:
+1. Crie uma anonymous inner class
+2. Crie uma method-local inner class
+3. Crie uma static inner class
+O resultado final da ordenação será sempre o mesmo. O que varia apenas é a forma como a
+classe que implementa a interface Comparator<Integer> será criada.
+
+2 Exercício
+Crie uma classe Carro que possui uma regular inner class privada chamada Motor. A classe
+Motor deve possuir um método ligar(), que muda o estado do seu atributo ligado para
+true.
+Na classe Carro, deve existir um método público chamado ligarMotor(), que delega a
+chamada ao método ligar() da inner class Motor().  
