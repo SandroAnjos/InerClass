@@ -7,10 +7,10 @@ public class Principal {
 		
 		
 		Ordination c=new Ordination();
+
 		
-		 int guardar []=new int[100];
-		int back=100;
-		c.arraylocal(guardar, back);
+
+	   
 	}
 
 }
